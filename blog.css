@@ -1,0 +1,31 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+}
+header h2 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    color: #6c6c6c;
+}
+
+.container {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px; /* Optional padding inside the container */
+}
+
+footer {
+    text-align: right; /* Right-aligns the footer content */
+    margin-top: 20px; /* Optional margin to separate the footer from content */
+}
