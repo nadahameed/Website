@@ -114,3 +114,29 @@ footer p a:hover {
     font-weight: bold;
     font-size: 0.8em;
 }
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal columns */
+    gap: 20px; /* Space between grid items */
+    margin: 20px 0;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: small;
+}
+
+.project h3 a {
+    color: #6a0dad; /* Use your preferred color */
+    text-decoration: none;
+    font-size: medium;
+}
+
+.project h3 a:hover {
+    text-decoration: underline;
+}
+
